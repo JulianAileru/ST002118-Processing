@@ -1,0 +1,825 @@
+injection_order,sample_name,sample_type,sample_type_original,batch,batch_folder
+1,Lich_NIST_1,nist,NIST Reference Material,1,BATCH000001
+2,Lich_S_1,study,Study Sample,1,BATCH000001
+3,Lich_S_2,study,Study Sample,1,BATCH000001
+4,Lich_S_3,study,Study Sample,1,BATCH000001
+5,Lich_S_4,study,Study Sample,1,BATCH000001
+6,Lich_S_5,study,Study Sample,1,BATCH000001
+7,Lich_S_6,study,Study Sample,1,BATCH000001
+8,Lich_S_7,study,Study Sample,1,BATCH000001
+9,Lich_S_8,study,Study Sample,1,BATCH000001
+10,Lich_S_9,study,Study Sample,1,BATCH000001
+11,Lich_S_10,study,Study Sample,1,BATCH000001
+12,Lich_HHEAR_1,hhear,HHEAR Reference Material,1,BATCH000001
+13,Lich_SP_1,sp,Study Pool,1,BATCH000001
+14,Lich_S_11,study,Study Sample,1,BATCH000001
+15,Lich_S_12,study,Study Sample,1,BATCH000001
+16,Lich_S_13,study,Study Sample,1,BATCH000001
+17,Lich_S_14,study,Study Sample,1,BATCH000001
+18,Lich_S_15,study,Study Sample,1,BATCH000001
+19,Lich_S_16,study,Study Sample,1,BATCH000001
+20,Lich_S_17,study,Study Sample,1,BATCH000001
+21,Lich_S_18,study,Study Sample,1,BATCH000001
+22,Lich_S_19,study,Study Sample,1,BATCH000001
+23,Lich_S_20,study,Study Sample,1,BATCH000001
+24,Lich_HHEAR_2,hhear,HHEAR Reference Material,1,BATCH000001
+25,Lich_SP_2,sp,Study Pool,1,BATCH000001
+26,Lich_S_21,study,Study Sample,1,BATCH000001
+27,Lich_S_22,study,Study Sample,1,BATCH000001
+28,Lich_S_23,study,Study Sample,1,BATCH000001
+29,Lich_S_24,study,Study Sample,1,BATCH000001
+30,Lich_S_25,study,Study Sample,1,BATCH000001
+31,Lich_S_26,study,Study Sample,1,BATCH000001
+32,Lich_S_27,study,Study Sample,1,BATCH000001
+33,Lich_S_28,study,Study Sample,1,BATCH000001
+34,Lich_S_29,study,Study Sample,1,BATCH000001
+35,Lich_S_30,study,Study Sample,1,BATCH000001
+36,Lich_HHEAR_3,hhear,HHEAR Reference Material,1,BATCH000001
+37,Lich_SP_3,sp,Study Pool,1,BATCH000001
+38,Lich_S_31,study,Study Sample,1,BATCH000001
+39,Lich_S_32,study,Study Sample,1,BATCH000001
+40,Lich_S_33,study,Study Sample,1,BATCH000001
+41,Lich_S_34,study,Study Sample,1,BATCH000001
+42,Lich_S_35,study,Study Sample,1,BATCH000001
+43,Lich_S_36,study,Study Sample,1,BATCH000001
+44,Lich_S_37,study,Study Sample,1,BATCH000001
+45,Lich_S_38,study,Study Sample,1,BATCH000001
+46,Lich_S_39,study,Study Sample,1,BATCH000001
+47,Lich_S_40,study,Study Sample,1,BATCH000001
+48,Lich_HHEAR_4,hhear,HHEAR Reference Material,1,BATCH000001
+49,Lich_SP_4,sp,Study Pool,1,BATCH000001
+50,Lich_NIST_2,nist,NIST Reference Material,1,BATCH000001
+51,Lich_S_41,study,Study Sample,1,BATCH000001
+52,Lich_S_42,study,Study Sample,1,BATCH000001
+53,Lich_S_43,study,Study Sample,1,BATCH000001
+54,Lich_S_44,study,Study Sample,1,BATCH000001
+55,Lich_S_45,study,Study Sample,1,BATCH000001
+56,Lich_S_46,study,Study Sample,1,BATCH000001
+57,Lich_S_47,study,Study Sample,1,BATCH000001
+58,Lich_S_48,study,Study Sample,1,BATCH000001
+59,Lich_S_49,study,Study Sample,1,BATCH000001
+60,Lich_S_50,study,Study Sample,1,BATCH000001
+61,Lich_HHEAR_5,hhear,HHEAR Reference Material,1,BATCH000001
+62,Lich_SP_5,sp,Study Pool,1,BATCH000001
+63,Lich_S_51,study,Study Sample,1,BATCH000001
+64,Lich_S_52,study,Study Sample,1,BATCH000001
+65,Lich_S_53,study,Study Sample,1,BATCH000001
+66,Lich_S_54,study,Study Sample,1,BATCH000001
+67,Lich_S_55,study,Study Sample,1,BATCH000001
+68,Lich_S_56,study,Study Sample,1,BATCH000001
+69,Lich_S_57,study,Study Sample,1,BATCH000001
+70,Lich_S_58,study,Study Sample,1,BATCH000001
+71,Lich_S_59,study,Study Sample,1,BATCH000001
+72,Lich_S_60,study,Study Sample,1,BATCH000001
+73,Lich_S_63,study,Study Sample,1,BATCH000001
+74,Lich_S_64,study,Study Sample,1,BATCH000001
+75,Lich_HHEAR_6,hhear,HHEAR Reference Material,1,BATCH000001
+76,Lich_S_65,study,Study Sample,1,BATCH000001
+77,Lich_SP_6,sp,Study Pool,1,BATCH000001
+78,Lich_S_66,study,Study Sample,1,BATCH000001
+79,Lich_S_61,study,Study Sample,1,BATCH000001
+80,Lich_S_67,study,Study Sample,1,BATCH000001
+81,Lich_S_62,study,Study Sample,1,BATCH000001
+82,Lich_S_68,study,Study Sample,1,BATCH000001
+83,Lich_S_69,study,Study Sample,1,BATCH000001
+84,Lich_S_70,study,Study Sample,1,BATCH000001
+85,Lich_HHEAR_7,hhear,HHEAR Reference Material,1,BATCH000001
+86,Lich_SP_7,sp,Study Pool,1,BATCH000001
+87,Lich_S_71,study,Study Sample,1,BATCH000001
+88,Lich_S_72,study,Study Sample,1,BATCH000001
+89,Lich_S_73,study,Study Sample,1,BATCH000001
+90,Lich_S_74,study,Study Sample,1,BATCH000001
+91,Lich_S_75,study,Study Sample,1,BATCH000001
+92,Lich_S_76,study,Study Sample,1,BATCH000001
+93,Lich_S_77,study,Study Sample,1,BATCH000001
+94,Lich_S_78,study,Study Sample,1,BATCH000001
+95,Lich_S_79,study,Study Sample,1,BATCH000001
+96,Lich_S_80,study,Study Sample,1,BATCH000001
+97,Lich_HHEAR_8,hhear,HHEAR Reference Material,1,BATCH000001
+98,Lich_SP_8,sp,Study Pool,1,BATCH000001
+99,Lich_NIST_3,nist,NIST Reference Material,1,BATCH000001
+100,Lich_NIST_4,nist,NIST Reference Material,2,BATCH000002
+101,Lich_S_81,study,Study Sample,2,BATCH000002
+102,Lich_S_82,study,Study Sample,2,BATCH000002
+103,Lich_S_83,study,Study Sample,2,BATCH000002
+104,Lich_S_84,study,Study Sample,2,BATCH000002
+105,Lich_S_85,study,Study Sample,2,BATCH000002
+106,Lich_S_86,study,Study Sample,2,BATCH000002
+107,Lich_S_87,study,Study Sample,2,BATCH000002
+108,Lich_S_88,study,Study Sample,2,BATCH000002
+109,Lich_S_89,study,Study Sample,2,BATCH000002
+110,Lich_S_90,study,Study Sample,2,BATCH000002
+111,Lich_HHEAR_9,hhear,HHEAR Reference Material,2,BATCH000002
+112,Lich_SP_9,sp,Study Pool,2,BATCH000002
+113,Lich_S_91,study,Study Sample,2,BATCH000002
+114,Lich_S_92,study,Study Sample,2,BATCH000002
+115,Lich_S_93,study,Study Sample,2,BATCH000002
+116,Lich_S_94,study,Study Sample,2,BATCH000002
+117,Lich_S_95,study,Study Sample,2,BATCH000002
+118,Lich_S_96,study,Study Sample,2,BATCH000002
+119,Lich_S_97,study,Study Sample,2,BATCH000002
+120,Lich_S_98,study,Study Sample,2,BATCH000002
+121,Lich_S_99,study,Study Sample,2,BATCH000002
+122,Lich_S_100,study,Study Sample,2,BATCH000002
+123,Lich_HHEAR_10,hhear,HHEAR Reference Material,2,BATCH000002
+124,Lich_SP_10,sp,Study Pool,2,BATCH000002
+125,Lich_S_101,study,Study Sample,2,BATCH000002
+126,Lich_S_102,study,Study Sample,2,BATCH000002
+127,Lich_S_103,study,Study Sample,2,BATCH000002
+128,Lich_S_104,study,Study Sample,2,BATCH000002
+129,Lich_S_105,study,Study Sample,2,BATCH000002
+130,Lich_S_106,study,Study Sample,2,BATCH000002
+131,Lich_S_107,study,Study Sample,2,BATCH000002
+132,Lich_S_108,study,Study Sample,2,BATCH000002
+133,Lich_S_109,study,Study Sample,2,BATCH000002
+134,Lich_S_110,study,Study Sample,2,BATCH000002
+135,Lich_HHEAR_11,hhear,HHEAR Reference Material,2,BATCH000002
+136,Lich_SP_11,sp,Study Pool,2,BATCH000002
+137,Lich_S_111,study,Study Sample,2,BATCH000002
+138,Lich_S_112,study,Study Sample,2,BATCH000002
+139,Lich_S_113,study,Study Sample,2,BATCH000002
+140,Lich_S_114,study,Study Sample,2,BATCH000002
+141,Lich_S_115,study,Study Sample,2,BATCH000002
+142,Lich_S_116,study,Study Sample,2,BATCH000002
+143,Lich_S_117,study,Study Sample,2,BATCH000002
+144,Lich_S_118,study,Study Sample,2,BATCH000002
+145,Lich_S_119,study,Study Sample,2,BATCH000002
+146,Lich_S_120,study,Study Sample,2,BATCH000002
+147,Lich_HHEAR_12,hhear,HHEAR Reference Material,2,BATCH000002
+148,Lich_SP_12,sp,Study Pool,2,BATCH000002
+149,Lich_NIST_5,nist,NIST Reference Material,2,BATCH000002
+150,Lich_S_121,study,Study Sample,2,BATCH000002
+151,Lich_S_122,study,Study Sample,2,BATCH000002
+152,Lich_S_123,study,Study Sample,2,BATCH000002
+153,Lich_S_124,study,Study Sample,2,BATCH000002
+154,Lich_S_125,study,Study Sample,2,BATCH000002
+155,Lich_S_126,study,Study Sample,2,BATCH000002
+156,Lich_S_127,study,Study Sample,2,BATCH000002
+157,Lich_S_128,study,Study Sample,2,BATCH000002
+158,Lich_S_129,study,Study Sample,2,BATCH000002
+159,Lich_S_130,study,Study Sample,2,BATCH000002
+160,Lich_HHEAR_13,hhear,HHEAR Reference Material,2,BATCH000002
+161,Lich_SP_13,sp,Study Pool,2,BATCH000002
+162,Lich_S_131,study,Study Sample,2,BATCH000002
+163,Lich_S_132,study,Study Sample,2,BATCH000002
+164,Lich_S_133,study,Study Sample,2,BATCH000002
+165,Lich_S_134,study,Study Sample,2,BATCH000002
+166,Lich_S_135,study,Study Sample,2,BATCH000002
+167,Lich_S_136,study,Study Sample,2,BATCH000002
+168,Lich_S_137,study,Study Sample,2,BATCH000002
+169,Lich_S_138,study,Study Sample,2,BATCH000002
+170,Lich_S_139,study,Study Sample,2,BATCH000002
+171,Lich_S_140,study,Study Sample,2,BATCH000002
+172,Lich_HHEAR_14,hhear,HHEAR Reference Material,2,BATCH000002
+173,Lich_S_141,study,Study Sample,2,BATCH000002
+174,Lich_S_142,study,Study Sample,2,BATCH000002
+175,Lich_S_143,study,Study Sample,2,BATCH000002
+176,Lich_S_144,study,Study Sample,2,BATCH000002
+177,Lich_S_145,study,Study Sample,2,BATCH000002
+178,Lich_S_146,study,Study Sample,2,BATCH000002
+179,Lich_S_147,study,Study Sample,2,BATCH000002
+180,Lich_S_148,study,Study Sample,2,BATCH000002
+181,Lich_S_149,study,Study Sample,2,BATCH000002
+182,Lich_S_150,study,Study Sample,2,BATCH000002
+183,Lich_HHEAR_15,hhear,HHEAR Reference Material,2,BATCH000002
+184,Lich_SP_15,sp,Study Pool,2,BATCH000002
+185,Lich_S_151,study,Study Sample,2,BATCH000002
+186,Lich_S_152,study,Study Sample,2,BATCH000002
+187,Lich_S_153,study,Study Sample,2,BATCH000002
+188,Lich_S_154,study,Study Sample,2,BATCH000002
+189,Lich_S_155,study,Study Sample,2,BATCH000002
+190,Lich_S_156,study,Study Sample,2,BATCH000002
+191,Lich_S_157,study,Study Sample,2,BATCH000002
+192,Lich_S_158,study,Study Sample,2,BATCH000002
+193,Lich_S_159,study,Study Sample,2,BATCH000002
+194,Lich_S_160,study,Study Sample,2,BATCH000002
+195,Lich_HHEAR_16,hhear,HHEAR Reference Material,2,BATCH000002
+196,Lich_SP_16,sp,Study Pool,2,BATCH000002
+197,Lich_NIST_6,nist,NIST Reference Material,2,BATCH000002
+198,Lich_NIST_7,nist,NIST Reference Material,3,BATCH000003
+199,Lich_S_161,study,Study Sample,3,BATCH000003
+200,Lich_S_162,study,Study Sample,3,BATCH000003
+201,Lich_S_163,study,Study Sample,3,BATCH000003
+202,Lich_S_164,study,Study Sample,3,BATCH000003
+203,Lich_S_165,study,Study Sample,3,BATCH000003
+204,Lich_S_166,study,Study Sample,3,BATCH000003
+205,Lich_S_167,study,Study Sample,3,BATCH000003
+206,Lich_S_168,study,Study Sample,3,BATCH000003
+207,Lich_S_169,study,Study Sample,3,BATCH000003
+208,Lich_S_170,study,Study Sample,3,BATCH000003
+209,Lich_HHEAR_17,hhear,HHEAR Reference Material,3,BATCH000003
+210,Lich_SP_17,sp,Study Pool,3,BATCH000003
+211,Lich_S_171,study,Study Sample,3,BATCH000003
+212,Lich_S_172,study,Study Sample,3,BATCH000003
+213,Lich_S_173,study,Study Sample,3,BATCH000003
+214,Lich_S_174,study,Study Sample,3,BATCH000003
+215,Lich_S_175,study,Study Sample,3,BATCH000003
+216,Lich_S_176,study,Study Sample,3,BATCH000003
+217,Lich_S_177,study,Study Sample,3,BATCH000003
+218,Lich_S_178,study,Study Sample,3,BATCH000003
+219,Lich_S_179,study,Study Sample,3,BATCH000003
+220,Lich_S_180,study,Study Sample,3,BATCH000003
+221,Lich_HHEAR_18,hhear,HHEAR Reference Material,3,BATCH000003
+222,Lich_SP_18,sp,Study Pool,3,BATCH000003
+223,Lich_S_181,study,Study Sample,3,BATCH000003
+224,Lich_S_182,study,Study Sample,3,BATCH000003
+225,Lich_S_183,study,Study Sample,3,BATCH000003
+226,Lich_S_184,study,Study Sample,3,BATCH000003
+227,Lich_S_185,study,Study Sample,3,BATCH000003
+228,Lich_S_186,study,Study Sample,3,BATCH000003
+229,Lich_S_187,study,Study Sample,3,BATCH000003
+230,Lich_S_188,study,Study Sample,3,BATCH000003
+231,Lich_S_189,study,Study Sample,3,BATCH000003
+232,Lich_S_190,study,Study Sample,3,BATCH000003
+233,Lich_HHEAR_19,hhear,HHEAR Reference Material,3,BATCH000003
+234,Lich_SP_19,sp,Study Pool,3,BATCH000003
+235,Lich_S_191,study,Study Sample,3,BATCH000003
+236,Lich_S_192,study,Study Sample,3,BATCH000003
+237,Lich_S_193,study,Study Sample,3,BATCH000003
+238,Lich_S_194,study,Study Sample,3,BATCH000003
+239,Lich_S_195,study,Study Sample,3,BATCH000003
+240,Lich_S_196,study,Study Sample,3,BATCH000003
+241,Lich_S_197,study,Study Sample,3,BATCH000003
+242,Lich_S_198,study,Study Sample,3,BATCH000003
+243,Lich_S_199,study,Study Sample,3,BATCH000003
+244,Lich_S_200,study,Study Sample,3,BATCH000003
+245,Lich_HHEAR_20,hhear,HHEAR Reference Material,3,BATCH000003
+246,Lich_SP_20,sp,Study Pool,3,BATCH000003
+247,Lich_NIST_8,nist,NIST Reference Material,3,BATCH000003
+248,Lich_S_201,study,Study Sample,3,BATCH000003
+249,Lich_S_202,study,Study Sample,3,BATCH000003
+250,Lich_S_203,study,Study Sample,3,BATCH000003
+251,Lich_S_204,study,Study Sample,3,BATCH000003
+252,Lich_S_205,study,Study Sample,3,BATCH000003
+253,Lich_S_206,study,Study Sample,3,BATCH000003
+254,Lich_S_207,study,Study Sample,3,BATCH000003
+255,Lich_S_208,study,Study Sample,3,BATCH000003
+256,Lich_S_209,study,Study Sample,3,BATCH000003
+257,Lich_S_210,study,Study Sample,3,BATCH000003
+258,Lich_HHEAR_21,hhear,HHEAR Reference Material,3,BATCH000003
+259,Lich_SP_21,sp,Study Pool,3,BATCH000003
+260,Lich_S_211,study,Study Sample,3,BATCH000003
+261,Lich_S_212,study,Study Sample,3,BATCH000003
+262,Lich_S_213,study,Study Sample,3,BATCH000003
+263,Lich_S_214,study,Study Sample,3,BATCH000003
+264,Lich_S_215,study,Study Sample,3,BATCH000003
+265,Lich_S_216,study,Study Sample,3,BATCH000003
+266,Lich_S_217,study,Study Sample,3,BATCH000003
+267,Lich_S_218,study,Study Sample,3,BATCH000003
+268,Lich_S_219,study,Study Sample,3,BATCH000003
+269,Lich_S_220,study,Study Sample,3,BATCH000003
+270,Lich_HHEAR_22,hhear,HHEAR Reference Material,3,BATCH000003
+271,Lich_SP_22,sp,Study Pool,3,BATCH000003
+272,Lich_S_221,study,Study Sample,3,BATCH000003
+273,Lich_S_222,study,Study Sample,3,BATCH000003
+274,Lich_S_223,study,Study Sample,3,BATCH000003
+275,Lich_S_224,study,Study Sample,3,BATCH000003
+276,Lich_S_225,study,Study Sample,3,BATCH000003
+277,Lich_S_226,study,Study Sample,3,BATCH000003
+278,Lich_S_227,study,Study Sample,3,BATCH000003
+279,Lich_S_228,study,Study Sample,3,BATCH000003
+280,Lich_S_229,study,Study Sample,3,BATCH000003
+281,Lich_S_230,study,Study Sample,3,BATCH000003
+282,Lich_HHEAR_23,hhear,HHEAR Reference Material,3,BATCH000003
+283,Lich_SP_23,sp,Study Pool,3,BATCH000003
+284,Lich_S_231,study,Study Sample,3,BATCH000003
+285,Lich_S_232,study,Study Sample,3,BATCH000003
+286,Lich_S_233,study,Study Sample,3,BATCH000003
+287,Lich_S_234,study,Study Sample,3,BATCH000003
+288,Lich_S_235,study,Study Sample,3,BATCH000003
+289,Lich_S_236,study,Study Sample,3,BATCH000003
+290,Lich_S_237,study,Study Sample,3,BATCH000003
+291,Lich_S_238,study,Study Sample,3,BATCH000003
+292,Lich_S_239,study,Study Sample,3,BATCH000003
+293,Lich_S_240,study,Study Sample,3,BATCH000003
+294,Lich_HHEAR_24,hhear,HHEAR Reference Material,3,BATCH000003
+295,Lich_SP_24,sp,Study Pool,3,BATCH000003
+296,Lich_NIST_9,nist,NIST Reference Material,3,BATCH000003
+297,Lich_NIST_10,nist,NIST Reference Material,4,BATCH000004
+298,Lich_S_241,study,Study Sample,4,BATCH000004
+299,Lich_S_242,study,Study Sample,4,BATCH000004
+300,Lich_S_243,study,Study Sample,4,BATCH000004
+301,Lich_S_244,study,Study Sample,4,BATCH000004
+302,Lich_S_245,study,Study Sample,4,BATCH000004
+303,Lich_S_246,study,Study Sample,4,BATCH000004
+304,Lich_S_247,study,Study Sample,4,BATCH000004
+305,Lich_S_248,study,Study Sample,4,BATCH000004
+306,Lich_S_249,study,Study Sample,4,BATCH000004
+307,Lich_S_250,study,Study Sample,4,BATCH000004
+308,Lich_HHEAR_25,hhear,HHEAR Reference Material,4,BATCH000004
+309,Lich_SP_25,sp,Study Pool,4,BATCH000004
+310,Lich_S_251,study,Study Sample,4,BATCH000004
+311,Lich_S_252,study,Study Sample,4,BATCH000004
+312,Lich_S_253,study,Study Sample,4,BATCH000004
+313,Lich_S_254,study,Study Sample,4,BATCH000004
+314,Lich_S_255,study,Study Sample,4,BATCH000004
+315,Lich_S_256,study,Study Sample,4,BATCH000004
+316,Lich_S_257,study,Study Sample,4,BATCH000004
+317,Lich_S_258,study,Study Sample,4,BATCH000004
+318,Lich_S_259,study,Study Sample,4,BATCH000004
+319,Lich_S_260,study,Study Sample,4,BATCH000004
+320,Lich_HHEAR_26,hhear,HHEAR Reference Material,4,BATCH000004
+321,Lich_SP_26,sp,Study Pool,4,BATCH000004
+322,Lich_S_261,study,Study Sample,4,BATCH000004
+323,Lich_S_262,study,Study Sample,4,BATCH000004
+324,Lich_S_263,study,Study Sample,4,BATCH000004
+325,Lich_S_264,study,Study Sample,4,BATCH000004
+326,Lich_S_265,study,Study Sample,4,BATCH000004
+327,Lich_S_266,study,Study Sample,4,BATCH000004
+328,Lich_S_267,study,Study Sample,4,BATCH000004
+329,Lich_S_268,study,Study Sample,4,BATCH000004
+330,Lich_S_269,study,Study Sample,4,BATCH000004
+331,Lich_S_270,study,Study Sample,4,BATCH000004
+332,Lich_HHEAR_27,hhear,HHEAR Reference Material,4,BATCH000004
+333,Lich_SP_27,sp,Study Pool,4,BATCH000004
+334,Lich_S_271,study,Study Sample,4,BATCH000004
+335,Lich_S_272,study,Study Sample,4,BATCH000004
+336,Lich_S_273,study,Study Sample,4,BATCH000004
+337,Lich_S_274,study,Study Sample,4,BATCH000004
+338,Lich_S_275,study,Study Sample,4,BATCH000004
+339,Lich_S_276,study,Study Sample,4,BATCH000004
+340,Lich_S_277,study,Study Sample,4,BATCH000004
+341,Lich_S_278,study,Study Sample,4,BATCH000004
+342,Lich_S_279,study,Study Sample,4,BATCH000004
+343,Lich_S_280,study,Study Sample,4,BATCH000004
+344,Lich_HHEAR_28,hhear,HHEAR Reference Material,4,BATCH000004
+345,Lich_SP_28,sp,Study Pool,4,BATCH000004
+346,Lich_NIST_11,nist,NIST Reference Material,4,BATCH000004
+347,Lich_S_281,study,Study Sample,4,BATCH000004
+348,Lich_S_282,study,Study Sample,4,BATCH000004
+349,Lich_S_283,study,Study Sample,4,BATCH000004
+350,Lich_S_284,study,Study Sample,4,BATCH000004
+351,Lich_S_285,study,Study Sample,4,BATCH000004
+352,Lich_S_286,study,Study Sample,4,BATCH000004
+353,Lich_S_287,study,Study Sample,4,BATCH000004
+354,Lich_S_288,study,Study Sample,4,BATCH000004
+355,Lich_S_289,study,Study Sample,4,BATCH000004
+356,Lich_S_290,study,Study Sample,4,BATCH000004
+357,Lich_HHEAR_29,hhear,HHEAR Reference Material,4,BATCH000004
+358,Lich_SP_29,sp,Study Pool,4,BATCH000004
+359,Lich_S_291,study,Study Sample,4,BATCH000004
+360,Lich_S_292,study,Study Sample,4,BATCH000004
+361,Lich_S_293,study,Study Sample,4,BATCH000004
+362,Lich_S_294,study,Study Sample,4,BATCH000004
+363,Lich_S_295,study,Study Sample,4,BATCH000004
+364,Lich_S_296,study,Study Sample,4,BATCH000004
+365,Lich_S_297,study,Study Sample,4,BATCH000004
+366,Lich_S_298,study,Study Sample,4,BATCH000004
+367,Lich_S_299,study,Study Sample,4,BATCH000004
+368,Lich_S_300,study,Study Sample,4,BATCH000004
+369,Lich_HHEAR_30,hhear,HHEAR Reference Material,4,BATCH000004
+370,Lich_SP_30,sp,Study Pool,4,BATCH000004
+371,Lich_S_301,study,Study Sample,4,BATCH000004
+372,Lich_S_302,study,Study Sample,4,BATCH000004
+373,Lich_S_303,study,Study Sample,4,BATCH000004
+374,Lich_S_304,study,Study Sample,4,BATCH000004
+375,Lich_S_305,study,Study Sample,4,BATCH000004
+376,Lich_S_306,study,Study Sample,4,BATCH000004
+377,Lich_S_307,study,Study Sample,4,BATCH000004
+378,Lich_S_308,study,Study Sample,4,BATCH000004
+379,Lich_S_309,study,Study Sample,4,BATCH000004
+380,Lich_S_310,study,Study Sample,4,BATCH000004
+381,Lich_HHEAR_31,hhear,HHEAR Reference Material,4,BATCH000004
+382,Lich_SP_31,sp,Study Pool,4,BATCH000004
+383,Lich_S_311,study,Study Sample,4,BATCH000004
+384,Lich_S_312,study,Study Sample,4,BATCH000004
+385,Lich_S_313,study,Study Sample,4,BATCH000004
+386,Lich_S_314,study,Study Sample,4,BATCH000004
+387,Lich_S_315,study,Study Sample,4,BATCH000004
+388,Lich_S_316,study,Study Sample,4,BATCH000004
+389,Lich_S_317,study,Study Sample,4,BATCH000004
+390,Lich_S_318,study,Study Sample,4,BATCH000004
+391,Lich_S_319,study,Study Sample,4,BATCH000004
+392,Lich_S_320,study,Study Sample,4,BATCH000004
+393,Lich_HHEAR_32,hhear,HHEAR Reference Material,4,BATCH000004
+394,Lich_SP_32,sp,Study Pool,4,BATCH000004
+395,Lich_NIST_12,nist,NIST Reference Material,4,BATCH000004
+396,Lich_NIST_13,nist,NIST Reference Material,5,BATCH000005
+397,Lich_S_321,study,Study Sample,5,BATCH000005
+398,Lich_S_322,study,Study Sample,5,BATCH000005
+399,Lich_S_323,study,Study Sample,5,BATCH000005
+400,Lich_S_324,study,Study Sample,5,BATCH000005
+401,Lich_S_325,study,Study Sample,5,BATCH000005
+402,Lich_S_326,study,Study Sample,5,BATCH000005
+403,Lich_S_327,study,Study Sample,5,BATCH000005
+404,Lich_S_328,study,Study Sample,5,BATCH000005
+405,Lich_S_329,study,Study Sample,5,BATCH000005
+406,Lich_S_330,study,Study Sample,5,BATCH000005
+407,Lich_HHEAR_33,hhear,HHEAR Reference Material,5,BATCH000005
+408,Lich_S_331,study,Study Sample,5,BATCH000005
+409,Lich_S_332,study,Study Sample,5,BATCH000005
+410,Lich_S_333,study,Study Sample,5,BATCH000005
+411,Lich_S_334,study,Study Sample,5,BATCH000005
+412,Lich_S_335,study,Study Sample,5,BATCH000005
+413,Lich_S_336,study,Study Sample,5,BATCH000005
+414,Lich_S_337,study,Study Sample,5,BATCH000005
+415,Lich_S_338,study,Study Sample,5,BATCH000005
+416,Lich_S_339,study,Study Sample,5,BATCH000005
+417,Lich_S_340,study,Study Sample,5,BATCH000005
+418,Lich_HHEAR_34,hhear,HHEAR Reference Material,5,BATCH000005
+419,Lich_S_341,study,Study Sample,5,BATCH000005
+420,Lich_S_342,study,Study Sample,5,BATCH000005
+421,Lich_S_343,study,Study Sample,5,BATCH000005
+422,Lich_S_344,study,Study Sample,5,BATCH000005
+423,Lich_S_345,study,Study Sample,5,BATCH000005
+424,Lich_S_346,study,Study Sample,5,BATCH000005
+425,Lich_S_347,study,Study Sample,5,BATCH000005
+426,Lich_S_348,study,Study Sample,5,BATCH000005
+427,Lich_S_349,study,Study Sample,5,BATCH000005
+428,Lich_S_350,study,Study Sample,5,BATCH000005
+429,Lich_HHEAR_35,hhear,HHEAR Reference Material,5,BATCH000005
+430,Lich_SP_35,sp,Study Pool,5,BATCH000005
+431,Lich_S_351,study,Study Sample,5,BATCH000005
+432,Lich_S_352,study,Study Sample,5,BATCH000005
+433,Lich_S_353,study,Study Sample,5,BATCH000005
+434,Lich_S_354,study,Study Sample,5,BATCH000005
+435,Lich_S_355,study,Study Sample,5,BATCH000005
+436,Lich_S_356,study,Study Sample,5,BATCH000005
+437,Lich_S_357,study,Study Sample,5,BATCH000005
+438,Lich_S_358,study,Study Sample,5,BATCH000005
+439,Lich_S_359,study,Study Sample,5,BATCH000005
+440,Lich_S_360,study,Study Sample,5,BATCH000005
+441,Lich_HHEAR_36,hhear,HHEAR Reference Material,5,BATCH000005
+442,Lich_SP_36,sp,Study Pool,5,BATCH000005
+443,Lich_NIST_14,nist,NIST Reference Material,5,BATCH000005
+444,Lich_S_361,study,Study Sample,5,BATCH000005
+445,Lich_S_362,study,Study Sample,5,BATCH000005
+446,Lich_S_363,study,Study Sample,5,BATCH000005
+447,Lich_S_364,study,Study Sample,5,BATCH000005
+448,Lich_S_365,study,Study Sample,5,BATCH000005
+449,Lich_S_366,study,Study Sample,5,BATCH000005
+450,Lich_S_367,study,Study Sample,5,BATCH000005
+451,Lich_S_368,study,Study Sample,5,BATCH000005
+452,Lich_S_369,study,Study Sample,5,BATCH000005
+453,Lich_S_370,study,Study Sample,5,BATCH000005
+454,Lich_HHEAR_37,hhear,HHEAR Reference Material,5,BATCH000005
+455,Lich_SP_37,sp,Study Pool,5,BATCH000005
+456,Lich_S_371,study,Study Sample,5,BATCH000005
+457,Lich_S_372,study,Study Sample,5,BATCH000005
+458,Lich_S_373,study,Study Sample,5,BATCH000005
+459,Lich_S_374,study,Study Sample,5,BATCH000005
+460,Lich_S_375,study,Study Sample,5,BATCH000005
+461,Lich_S_376,study,Study Sample,5,BATCH000005
+462,Lich_S_377,study,Study Sample,5,BATCH000005
+463,Lich_S_378,study,Study Sample,5,BATCH000005
+464,Lich_S_379,study,Study Sample,5,BATCH000005
+465,Lich_S_380,study,Study Sample,5,BATCH000005
+466,Lich_HHEAR_38,hhear,HHEAR Reference Material,5,BATCH000005
+467,Lich_SP_38,sp,Study Pool,5,BATCH000005
+468,Lich_S_381,study,Study Sample,5,BATCH000005
+469,Lich_S_382,study,Study Sample,5,BATCH000005
+470,Lich_S_383,study,Study Sample,5,BATCH000005
+471,Lich_S_384,study,Study Sample,5,BATCH000005
+472,Lich_S_385,study,Study Sample,5,BATCH000005
+473,Lich_S_386,study,Study Sample,5,BATCH000005
+474,Lich_S_387,study,Study Sample,5,BATCH000005
+475,Lich_S_388,study,Study Sample,5,BATCH000005
+476,Lich_S_389,study,Study Sample,5,BATCH000005
+477,Lich_S_390,study,Study Sample,5,BATCH000005
+478,Lich_HHEAR_39,hhear,HHEAR Reference Material,5,BATCH000005
+479,Lich_SP_39,sp,Study Pool,5,BATCH000005
+480,Lich_S_391,study,Study Sample,5,BATCH000005
+481,Lich_S_392,study,Study Sample,5,BATCH000005
+482,Lich_S_393,study,Study Sample,5,BATCH000005
+483,Lich_S_394,study,Study Sample,5,BATCH000005
+484,Lich_S_395,study,Study Sample,5,BATCH000005
+485,Lich_S_396,study,Study Sample,5,BATCH000005
+486,Lich_S_397,study,Study Sample,5,BATCH000005
+487,Lich_S_398,study,Study Sample,5,BATCH000005
+488,Lich_S_399,study,Study Sample,5,BATCH000005
+489,Lich_S_400,study,Study Sample,5,BATCH000005
+490,Lich_HHEAR_40,hhear,HHEAR Reference Material,5,BATCH000005
+491,Lich_SP_40,sp,Study Pool,5,BATCH000005
+492,Lich_NIST_15,nist,NIST Reference Material,5,BATCH000005
+493,Lich_NIST_16,nist,NIST Reference Material,6,BATCH000006
+494,Lich_S_401,study,Study Sample,6,BATCH000006
+495,Lich_S_402,study,Study Sample,6,BATCH000006
+496,Lich_S_403,study,Study Sample,6,BATCH000006
+497,Lich_S_404,study,Study Sample,6,BATCH000006
+498,Lich_S_405,study,Study Sample,6,BATCH000006
+499,Lich_S_406,study,Study Sample,6,BATCH000006
+500,Lich_S_407,study,Study Sample,6,BATCH000006
+501,Lich_S_408,study,Study Sample,6,BATCH000006
+502,Lich_S_409,study,Study Sample,6,BATCH000006
+503,Lich_S_410,study,Study Sample,6,BATCH000006
+504,Lich_HHEAR_41,hhear,HHEAR Reference Material,6,BATCH000006
+505,Lich_SP_41,sp,Study Pool,6,BATCH000006
+506,Lich_S_411,study,Study Sample,6,BATCH000006
+507,Lich_S_412,study,Study Sample,6,BATCH000006
+508,Lich_S_413,study,Study Sample,6,BATCH000006
+509,Lich_S_414,study,Study Sample,6,BATCH000006
+510,Lich_S_415,study,Study Sample,6,BATCH000006
+511,Lich_S_416,study,Study Sample,6,BATCH000006
+512,Lich_S_417,study,Study Sample,6,BATCH000006
+513,Lich_S_418,study,Study Sample,6,BATCH000006
+514,Lich_S_419,study,Study Sample,6,BATCH000006
+515,Lich_S_420,study,Study Sample,6,BATCH000006
+516,Lich_HHEAR_42,hhear,HHEAR Reference Material,6,BATCH000006
+517,Lich_SP_42,sp,Study Pool,6,BATCH000006
+518,Lich_S_421,study,Study Sample,6,BATCH000006
+519,Lich_S_422,study,Study Sample,6,BATCH000006
+520,Lich_S_423,study,Study Sample,6,BATCH000006
+521,Lich_S_424,study,Study Sample,6,BATCH000006
+522,Lich_S_425,study,Study Sample,6,BATCH000006
+523,Lich_S_426,study,Study Sample,6,BATCH000006
+524,Lich_S_427,study,Study Sample,6,BATCH000006
+525,Lich_S_428,study,Study Sample,6,BATCH000006
+526,Lich_S_429,study,Study Sample,6,BATCH000006
+527,Lich_S_430,study,Study Sample,6,BATCH000006
+528,Lich_HHEAR_43,hhear,HHEAR Reference Material,6,BATCH000006
+529,Lich_SP_43,sp,Study Pool,6,BATCH000006
+530,Lich_S_431,study,Study Sample,6,BATCH000006
+531,Lich_S_432,study,Study Sample,6,BATCH000006
+532,Lich_S_433,study,Study Sample,6,BATCH000006
+533,Lich_S_434,study,Study Sample,6,BATCH000006
+534,Lich_S_435,study,Study Sample,6,BATCH000006
+535,Lich_S_436,study,Study Sample,6,BATCH000006
+536,Lich_S_437,study,Study Sample,6,BATCH000006
+537,Lich_S_438,study,Study Sample,6,BATCH000006
+538,Lich_S_439,study,Study Sample,6,BATCH000006
+539,Lich_S_440,study,Study Sample,6,BATCH000006
+540,Lich_HHEAR_44,hhear,HHEAR Reference Material,6,BATCH000006
+541,Lich_SP_44,sp,Study Pool,6,BATCH000006
+542,Lich_NIST_17,nist,NIST Reference Material,6,BATCH000006
+543,Lich_S_441,study,Study Sample,6,BATCH000006
+544,Lich_S_442,study,Study Sample,6,BATCH000006
+545,Lich_S_443,study,Study Sample,6,BATCH000006
+546,Lich_S_444,study,Study Sample,6,BATCH000006
+547,Lich_S_445,study,Study Sample,6,BATCH000006
+548,Lich_S_446,study,Study Sample,6,BATCH000006
+549,Lich_S_447,study,Study Sample,6,BATCH000006
+550,Lich_S_448,study,Study Sample,6,BATCH000006
+551,Lich_S_449,study,Study Sample,6,BATCH000006
+552,Lich_S_450,study,Study Sample,6,BATCH000006
+553,Lich_HHEAR_45,hhear,HHEAR Reference Material,6,BATCH000006
+554,Lich_SP_45,sp,Study Pool,6,BATCH000006
+555,Lich_S_451,study,Study Sample,6,BATCH000006
+556,Lich_S_453,study,Study Sample,6,BATCH000006
+557,Lich_S_454,study,Study Sample,6,BATCH000006
+558,Lich_S_455,study,Study Sample,6,BATCH000006
+559,Lich_S_457,study,Study Sample,6,BATCH000006
+560,Lich_S_458,study,Study Sample,6,BATCH000006
+561,Lich_S_459,study,Study Sample,6,BATCH000006
+562,Lich_S_460,study,Study Sample,6,BATCH000006
+563,Lich_HHEAR_46,hhear,HHEAR Reference Material,6,BATCH000006
+564,Lich_SP_46,sp,Study Pool,6,BATCH000006
+565,Lich_S_461,study,Study Sample,6,BATCH000006
+566,Lich_S_462,study,Study Sample,6,BATCH000006
+567,Lich_S_463,study,Study Sample,6,BATCH000006
+568,Lich_S_464,study,Study Sample,6,BATCH000006
+569,Lich_S_465,study,Study Sample,6,BATCH000006
+570,Lich_S_466,study,Study Sample,6,BATCH000006
+571,Lich_S_467,study,Study Sample,6,BATCH000006
+572,Lich_S_468,study,Study Sample,6,BATCH000006
+573,Lich_S_469,study,Study Sample,6,BATCH000006
+574,Lich_S_470,study,Study Sample,6,BATCH000006
+575,Lich_HHEAR_47,hhear,HHEAR Reference Material,6,BATCH000006
+576,Lich_SP_47,sp,Study Pool,6,BATCH000006
+577,Lich_S_472,study,Study Sample,6,BATCH000006
+578,Lich_S_473,study,Study Sample,6,BATCH000006
+579,Lich_S_474,study,Study Sample,6,BATCH000006
+580,Lich_S_475,study,Study Sample,6,BATCH000006
+581,Lich_S_476,study,Study Sample,6,BATCH000006
+582,Lich_S_477,study,Study Sample,6,BATCH000006
+583,Lich_S_478,study,Study Sample,6,BATCH000006
+584,Lich_S_479,study,Study Sample,6,BATCH000006
+585,Lich_S_480,study,Study Sample,6,BATCH000006
+586,Lich_HHEAR_48,hhear,HHEAR Reference Material,6,BATCH000006
+587,Lich_SP_48,sp,Study Pool,6,BATCH000006
+588,Lich_NIST_18,nist,NIST Reference Material,6,BATCH000006
+589,Lich_NIST_19,nist,NIST Reference Material,7,BATCH000007
+590,Lich_S_481,study,Study Sample,7,BATCH000007
+591,Lich_S_482,study,Study Sample,7,BATCH000007
+592,Lich_S_483,study,Study Sample,7,BATCH000007
+593,Lich_S_484,study,Study Sample,7,BATCH000007
+594,Lich_S_485,study,Study Sample,7,BATCH000007
+595,Lich_S_486,study,Study Sample,7,BATCH000007
+596,Lich_S_487,study,Study Sample,7,BATCH000007
+597,Lich_S_488,study,Study Sample,7,BATCH000007
+598,Lich_S_489,study,Study Sample,7,BATCH000007
+599,Lich_S_490,study,Study Sample,7,BATCH000007
+600,Lich_HHEAR_49,hhear,HHEAR Reference Material,7,BATCH000007
+601,Lich_SP_49,sp,Study Pool,7,BATCH000007
+602,Lich_S_491,study,Study Sample,7,BATCH000007
+603,Lich_S_492,study,Study Sample,7,BATCH000007
+604,Lich_S_493,study,Study Sample,7,BATCH000007
+605,Lich_S_494,study,Study Sample,7,BATCH000007
+606,Lich_S_495,study,Study Sample,7,BATCH000007
+607,Lich_S_496,study,Study Sample,7,BATCH000007
+608,Lich_S_497,study,Study Sample,7,BATCH000007
+609,Lich_S_498,study,Study Sample,7,BATCH000007
+610,Lich_S_499,study,Study Sample,7,BATCH000007
+611,Lich_S_500,study,Study Sample,7,BATCH000007
+612,Lich_HHEAR_50,hhear,HHEAR Reference Material,7,BATCH000007
+613,Lich_SP_50,sp,Study Pool,7,BATCH000007
+614,Lich_S_501,study,Study Sample,7,BATCH000007
+615,Lich_S_502,study,Study Sample,7,BATCH000007
+616,Lich_S_503,study,Study Sample,7,BATCH000007
+617,Lich_S_504,study,Study Sample,7,BATCH000007
+618,Lich_S_505,study,Study Sample,7,BATCH000007
+619,Lich_S_506,study,Study Sample,7,BATCH000007
+620,Lich_S_507,study,Study Sample,7,BATCH000007
+621,Lich_S_508,study,Study Sample,7,BATCH000007
+622,Lich_S_509,study,Study Sample,7,BATCH000007
+623,Lich_S_510,study,Study Sample,7,BATCH000007
+624,Lich_HHEAR_51,hhear,HHEAR Reference Material,7,BATCH000007
+625,Lich_SP_51,sp,Study Pool,7,BATCH000007
+626,Lich_S_511,study,Study Sample,7,BATCH000007
+627,Lich_S_512,study,Study Sample,7,BATCH000007
+628,Lich_S_513,study,Study Sample,7,BATCH000007
+629,Lich_S_514,study,Study Sample,7,BATCH000007
+630,Lich_S_515,study,Study Sample,7,BATCH000007
+631,Lich_S_516,study,Study Sample,7,BATCH000007
+632,Lich_S_517,study,Study Sample,7,BATCH000007
+633,Lich_S_518,study,Study Sample,7,BATCH000007
+634,Lich_S_519,study,Study Sample,7,BATCH000007
+635,Lich_S_520,study,Study Sample,7,BATCH000007
+636,Lich_HHEAR_52,hhear,HHEAR Reference Material,7,BATCH000007
+637,Lich_SP_52,sp,Study Pool,7,BATCH000007
+638,Lich_NIST_20,nist,NIST Reference Material,7,BATCH000007
+639,Lich_S_521,study,Study Sample,7,BATCH000007
+640,Lich_S_522,study,Study Sample,7,BATCH000007
+641,Lich_S_523,study,Study Sample,7,BATCH000007
+642,Lich_S_524,study,Study Sample,7,BATCH000007
+643,Lich_S_525,study,Study Sample,7,BATCH000007
+644,Lich_S_526,study,Study Sample,7,BATCH000007
+645,Lich_S_527,study,Study Sample,7,BATCH000007
+646,Lich_S_528,study,Study Sample,7,BATCH000007
+647,Lich_S_529,study,Study Sample,7,BATCH000007
+648,Lich_S_530,study,Study Sample,7,BATCH000007
+649,Lich_HHEAR_53,hhear,HHEAR Reference Material,7,BATCH000007
+650,Lich_SP_53,sp,Study Pool,7,BATCH000007
+651,Lich_S_531,study,Study Sample,7,BATCH000007
+652,Lich_S_532,study,Study Sample,7,BATCH000007
+653,Lich_S_533,study,Study Sample,7,BATCH000007
+654,Lich_S_534,study,Study Sample,7,BATCH000007
+655,Lich_S_535,study,Study Sample,7,BATCH000007
+656,Lich_S_536,study,Study Sample,7,BATCH000007
+657,Lich_S_537,study,Study Sample,7,BATCH000007
+658,Lich_S_538,study,Study Sample,7,BATCH000007
+659,Lich_S_539,study,Study Sample,7,BATCH000007
+660,Lich_S_540,study,Study Sample,7,BATCH000007
+661,Lich_HHEAR_54,hhear,HHEAR Reference Material,7,BATCH000007
+662,Lich_SP_54,sp,Study Pool,7,BATCH000007
+663,Lich_S_542,study,Study Sample,7,BATCH000007
+664,Lich_S_543,study,Study Sample,7,BATCH000007
+665,Lich_S_544,study,Study Sample,7,BATCH000007
+666,Lich_S_545,study,Study Sample,7,BATCH000007
+667,Lich_S_546,study,Study Sample,7,BATCH000007
+668,Lich_S_547,study,Study Sample,7,BATCH000007
+669,Lich_S_548,study,Study Sample,7,BATCH000007
+670,Lich_S_549,study,Study Sample,7,BATCH000007
+671,Lich_S_550,study,Study Sample,7,BATCH000007
+672,Lich_HHEAR_55,hhear,HHEAR Reference Material,7,BATCH000007
+673,Lich_SP_55,sp,Study Pool,7,BATCH000007
+674,Lich_S_551,study,Study Sample,7,BATCH000007
+675,Lich_S_552,study,Study Sample,7,BATCH000007
+676,Lich_S_553,study,Study Sample,7,BATCH000007
+677,Lich_S_554,study,Study Sample,7,BATCH000007
+678,Lich_S_555,study,Study Sample,7,BATCH000007
+679,Lich_S_556,study,Study Sample,7,BATCH000007
+680,Lich_S_557,study,Study Sample,7,BATCH000007
+681,Lich_S_558,study,Study Sample,7,BATCH000007
+682,Lich_S_559,study,Study Sample,7,BATCH000007
+683,Lich_S_560,study,Study Sample,7,BATCH000007
+684,Lich_HHEAR_56,hhear,HHEAR Reference Material,7,BATCH000007
+685,Lich_SP_56,sp,Study Pool,7,BATCH000007
+686,Lich_NIST_21,nist,NIST Reference Material,7,BATCH000007
+687,Lich_NIST_22,nist,NIST Reference Material,8,BATCH000008
+688,Lich_S_561,study,Study Sample,8,BATCH000008
+689,Lich_S_562,study,Study Sample,8,BATCH000008
+690,Lich_S_563,study,Study Sample,8,BATCH000008
+691,Lich_S_564,study,Study Sample,8,BATCH000008
+692,Lich_S_565,study,Study Sample,8,BATCH000008
+693,Lich_S_566,study,Study Sample,8,BATCH000008
+694,Lich_S_567,study,Study Sample,8,BATCH000008
+695,Lich_S_568,study,Study Sample,8,BATCH000008
+696,Lich_S_569,study,Study Sample,8,BATCH000008
+697,Lich_S_570,study,Study Sample,8,BATCH000008
+698,Lich_HHEAR_57,hhear,HHEAR Reference Material,8,BATCH000008
+699,Lich_SP_57,sp,Study Pool,8,BATCH000008
+700,Lich_S_571,study,Study Sample,8,BATCH000008
+701,Lich_S_572,study,Study Sample,8,BATCH000008
+702,Lich_S_573,study,Study Sample,8,BATCH000008
+703,Lich_S_574,study,Study Sample,8,BATCH000008
+704,Lich_S_575,study,Study Sample,8,BATCH000008
+705,Lich_S_576,study,Study Sample,8,BATCH000008
+706,Lich_S_577,study,Study Sample,8,BATCH000008
+707,Lich_S_578,study,Study Sample,8,BATCH000008
+708,Lich_S_579,study,Study Sample,8,BATCH000008
+709,Lich_S_580,study,Study Sample,8,BATCH000008
+710,Lich_HHEAR_58,hhear,HHEAR Reference Material,8,BATCH000008
+711,Lich_SP_58,sp,Study Pool,8,BATCH000008
+712,Lich_S_581,study,Study Sample,8,BATCH000008
+713,Lich_S_582,study,Study Sample,8,BATCH000008
+714,Lich_S_583,study,Study Sample,8,BATCH000008
+715,Lich_S_584,study,Study Sample,8,BATCH000008
+716,Lich_S_585,study,Study Sample,8,BATCH000008
+717,Lich_S_586,study,Study Sample,8,BATCH000008
+718,Lich_S_587,study,Study Sample,8,BATCH000008
+719,Lich_S_588,study,Study Sample,8,BATCH000008
+720,Lich_S_589,study,Study Sample,8,BATCH000008
+721,Lich_S_590,study,Study Sample,8,BATCH000008
+722,Lich_HHEAR_59,hhear,HHEAR Reference Material,8,BATCH000008
+723,Lich_S_591,study,Study Sample,8,BATCH000008
+724,Lich_S_592,study,Study Sample,8,BATCH000008
+725,Lich_S_593,study,Study Sample,8,BATCH000008
+726,Lich_S_594,study,Study Sample,8,BATCH000008
+727,Lich_S_595,study,Study Sample,8,BATCH000008
+728,Lich_S_596,study,Study Sample,8,BATCH000008
+729,Lich_S_597,study,Study Sample,8,BATCH000008
+730,Lich_S_598,study,Study Sample,8,BATCH000008
+731,Lich_S_599,study,Study Sample,8,BATCH000008
+732,Lich_S_600,study,Study Sample,8,BATCH000008
+733,Lich_HHEAR_60,hhear,HHEAR Reference Material,8,BATCH000008
+734,Lich_SP_60,sp,Study Pool,8,BATCH000008
+735,Lich_S_601,study,Study Sample,8,BATCH000008
+736,Lich_S_602,study,Study Sample,8,BATCH000008
+737,Lich_S_603,study,Study Sample,8,BATCH000008
+738,Lich_S_604,study,Study Sample,8,BATCH000008
+739,Lich_S_605,study,Study Sample,8,BATCH000008
+740,Lich_S_606,study,Study Sample,8,BATCH000008
+741,Lich_S_607,study,Study Sample,8,BATCH000008
+742,Lich_S_608,study,Study Sample,8,BATCH000008
+743,Lich_S_609,study,Study Sample,8,BATCH000008
+744,Lich_S_610,study,Study Sample,8,BATCH000008
+745,Lich_HHEAR_61,hhear,HHEAR Reference Material,8,BATCH000008
+746,Lich_SP_61,sp,Study Pool,8,BATCH000008
+747,Lich_S_611,study,Study Sample,8,BATCH000008
+748,Lich_S_612,study,Study Sample,8,BATCH000008
+749,Lich_S_613,study,Study Sample,8,BATCH000008
+750,Lich_S_614,study,Study Sample,8,BATCH000008
+751,Lich_S_615,study,Study Sample,8,BATCH000008
+752,Lich_S_616,study,Study Sample,8,BATCH000008
+753,Lich_S_617,study,Study Sample,8,BATCH000008
+754,Lich_S_618,study,Study Sample,8,BATCH000008
+755,Lich_S_619,study,Study Sample,8,BATCH000008
+756,Lich_S_620,study,Study Sample,8,BATCH000008
+757,Lich_HHEAR_62,hhear,HHEAR Reference Material,8,BATCH000008
+758,Lich_SP_62,sp,Study Pool,8,BATCH000008
+759,Lich_NIST_23,nist,NIST Reference Material,8,BATCH000008
+760,Lich_S_621,study,Study Sample,8,BATCH000008
+761,Lich_S_622,study,Study Sample,8,BATCH000008
+762,Lich_S_623,study,Study Sample,8,BATCH000008
+763,Lich_S_624,study,Study Sample,8,BATCH000008
+764,Lich_S_625,study,Study Sample,8,BATCH000008
+765,Lich_S_626,study,Study Sample,8,BATCH000008
+766,Lich_S_627,study,Study Sample,8,BATCH000008
+767,Lich_S_628,study,Study Sample,8,BATCH000008
+768,Lich_S_629,study,Study Sample,8,BATCH000008
+769,Lich_S_630,study,Study Sample,8,BATCH000008
+770,Lich_HHEAR_63,hhear,HHEAR Reference Material,8,BATCH000008
+771,Lich_SP_63,sp,Study Pool,8,BATCH000008
+772,Lich_S_631,study,Study Sample,8,BATCH000008
+773,Lich_S_632,study,Study Sample,8,BATCH000008
+774,Lich_S_633,study,Study Sample,8,BATCH000008
+775,Lich_S_634,study,Study Sample,8,BATCH000008
+776,Lich_S_635,study,Study Sample,8,BATCH000008
+777,Lich_S_636,study,Study Sample,8,BATCH000008
+778,Lich_S_637,study,Study Sample,8,BATCH000008
+779,Lich_S_638,study,Study Sample,8,BATCH000008
+780,Lich_S_639,study,Study Sample,8,BATCH000008
+781,Lich_S_640,study,Study Sample,8,BATCH000008
+782,Lich_HHEAR_64,hhear,HHEAR Reference Material,8,BATCH000008
+783,Lich_SP_64,sp,Study Pool,8,BATCH000008
+784,Lich_S_641,study,Study Sample,8,BATCH000008
+785,Lich_S_642,study,Study Sample,8,BATCH000008
+786,Lich_S_643,study,Study Sample,8,BATCH000008
+787,Lich_S_644,study,Study Sample,8,BATCH000008
+788,Lich_S_645,study,Study Sample,8,BATCH000008
+789,Lich_S_646,study,Study Sample,8,BATCH000008
+790,Lich_S_647,study,Study Sample,8,BATCH000008
+791,Lich_S_648,study,Study Sample,8,BATCH000008
+792,Lich_S_649,study,Study Sample,8,BATCH000008
+793,Lich_S_650,study,Study Sample,8,BATCH000008
+794,Lich_HHEAR_65,hhear,HHEAR Reference Material,8,BATCH000008
+795,Lich_SP_65,sp,Study Pool,8,BATCH000008
+796,Lich_S_651,study,Study Sample,8,BATCH000008
+797,Lich_S_652,study,Study Sample,8,BATCH000008
+798,Lich_S_653,study,Study Sample,8,BATCH000008
+799,Lich_S_654,study,Study Sample,8,BATCH000008
+800,Lich_S_655,study,Study Sample,8,BATCH000008
+801,Lich_S_656,study,Study Sample,8,BATCH000008
+802,Lich_S_657,study,Study Sample,8,BATCH000008
+803,Lich_S_658,study,Study Sample,8,BATCH000008
+804,Lich_S_659,study,Study Sample,8,BATCH000008
+805,Lich_S_660,study,Study Sample,8,BATCH000008
+806,Lich_HHEAR_66,hhear,HHEAR Reference Material,8,BATCH000008
+807,Lich_SP_66,sp,Study Pool,8,BATCH000008
+808,Lich_S_661,study,Study Sample,8,BATCH000008
+809,Lich_S_662,study,Study Sample,8,BATCH000008
+810,Lich_S_663,study,Study Sample,8,BATCH000008
+811,Lich_S_664,study,Study Sample,8,BATCH000008
+812,Lich_S_665,study,Study Sample,8,BATCH000008
+813,Lich_S_666,study,Study Sample,8,BATCH000008
+814,Lich_S_667,study,Study Sample,8,BATCH000008
+815,Lich_S_668,study,Study Sample,8,BATCH000008
+816,Lich_S_669,study,Study Sample,8,BATCH000008
+817,Lich_S_670,study,Study Sample,8,BATCH000008
+818,Lich_HHEAR_67,hhear,HHEAR Reference Material,8,BATCH000008
+819,Lich_SP_67,sp,Study Pool,8,BATCH000008
+820,Lich_S_671,study,Study Sample,8,BATCH000008
+821,Lich_S_672,study,Study Sample,8,BATCH000008
+822,Lich_HHEAR_68,hhear,HHEAR Reference Material,8,BATCH000008
+823,Lich_SP_68,sp,Study Pool,8,BATCH000008
+824,Lich_NIST_24,nist,NIST Reference Material,8,BATCH000008

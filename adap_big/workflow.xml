@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><workflow type="lc-ms">
+    <org.dulab.adapbig.input.InputModule>
+        <input/>
+        <factors/>
+    </org.dulab.adapbig.input.InputModule>
+
+    <org.dulab.adapbig.chromatogrambuilder.ChromatogramBuilderModule>
+        <filename/>
+    </org.dulab.adapbig.chromatogrambuilder.ChromatogramBuilderModule>
+
+    <org.dulab.adapbig.peakdetection.PeakDetectorModule>
+        <filename/>
+    </org.dulab.adapbig.peakdetection.PeakDetectorModule>
+
+    <org.dulab.adapbig.peakms2pairing.PeakMs2PairingModule>
+        <filename/>
+        <type value="peak"/>
+    </org.dulab.adapbig.peakms2pairing.PeakMs2PairingModule>
+
+    <org.dulab.adapbig.joinaligner.JoinAlignerModule>
+        <type value="peak"/>
+    </org.dulab.adapbig.joinaligner.JoinAlignerModule>
+
+    <!-- BackgroundRemovalModule removed: ST002118 has no blank injections on Metabolomics Workbench.
+         (With no blanks it would be a pass-through anyway: "Cannot find pool and/or blank samples.")
+         BetweenBatchJoinAligner therefore reads the JoinAligner output directly. -->
+
+    <org.dulab.adapbig.betweenbatchjoinaligner.BetweenBatchJoinAlignerModule>
+        <type value="aligned_component"/>
+    </org.dulab.adapbig.betweenbatchjoinaligner.BetweenBatchJoinAlignerModule>
+
+    <org.dulab.adapbig.multibatchnormalization.MultiBatchNormalizationModule>
+        <type value="aligned_component"/>
+    </org.dulab.adapbig.multibatchnormalization.MultiBatchNormalizationModule>
+
+    <org.dulab.adapbig.batcheffectcorrection.BatchEffectCorrectionModule>
+       <type value="normalized_component"/>
+       <filename value="normalized_features"/>
+    </org.dulab.adapbig.batcheffectcorrection.BatchEffectCorrectionModule>
+
+    <org.dulab.adapbig.multibatchrsdfilter.MultiBatchRsdFilterModule>
+        <type value="batch_effect_corrected"/>
+        <filename value="batch_effect_corrected_features"/>
+    </org.dulab.adapbig.multibatchrsdfilter.MultiBatchRsdFilterModule>
+
+    <org.dulab.adapbig.multibatchnormalization.MultiBatchNormalizationModule>
+        <type value="rsd_filtered_component"/>
+        <output.filename value="renormalized_features"/>
+    </org.dulab.adapbig.multibatchnormalization.MultiBatchNormalizationModule>
+
+    <org.dulab.adapbig.batcheffectcorrection.BatchEffectCorrectionModule>
+       <type value="normalized_component"/>
+       <filename value="renormalized_features"/>
+       <output.filename value="recorrected_features"/>
+    </org.dulab.adapbig.batcheffectcorrection.BatchEffectCorrectionModule>
+
+</workflow>

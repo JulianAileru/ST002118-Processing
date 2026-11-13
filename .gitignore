@@ -1,0 +1,34 @@
+# NOTE: git does not support trailing comments -- keep comments on their own lines.
+
+# --- Large data (all re-creatable from the pipeline) ---
+# raw/: downloaded zip + extracted vendor .raw (~225 GB)
+# mzML/: msconvert output (~97 GB)
+# containers/: pwiz.sif (~3.4 GB)
+raw/
+mzML/
+containers/
+*.raw
+*.mzML
+*.mzXML
+*.sif
+*.zip
+
+# --- ADAP-BIG: keep workflow.xml, settings.xml, run script, factors CSV ---
+# jar is a 137 MB binary; runs/ holds project outputs (.ser files, tens of GB)
+adap_big/*.jar
+adap_big/runs/
+adap_big/gc-*.log
+
+# --- SLURM logs (directory kept via .gitkeep because SLURM won't create it) ---
+logs/*
+!logs/.gitkeep
+
+# --- Source documents not for redistribution (parsed copy: metadata/prep_list.csv) ---
+*.docx
+
+# --- Environments / tooling ---
+.pixi/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/

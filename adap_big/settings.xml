@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><settings>
+    <universal>
+        <mz.tolerance type="mz" unit="da" value="0.05"/>
+        <pool.sample.type selected="Pool" type="combo.list">
+            <combo value="Pool"/>
+            <combo value="NIST"/>
+            <combo value="QC"/>
+            <combo value="Other"/>
+        </pool.sample.type>
+    </universal>
+    <org.dulab.adapbig.alignment.AlignmentModule>
+        <sample.count.ratio type="double" value="0.5"/>
+        <ret.time.range type="double" value="0.05"/>
+        <score.tolerance type="double" value="0.75"/>
+        <score.weight type="double" value="0.1"/>
+        <mz.tolerance.with.units type="mz" unit="da" value="0.01"/>
+        <exclusion.mz.ranges type="exclusion.mz.ranges" value=""/>
+    </org.dulab.adapbig.alignment.AlignmentModule>
+    <org.dulab.adapbig.adductsearch.AdductSearchModule>
+        <peak.similarity.threshold type="double" value="0.7"/>
+        <retention.time.tolerance type="double" value="0.5"/>
+        <mass.tolerance.with.units type="mz" unit="ppm" value="15.0"/>
+        <min.number.ions type="int" value="1"/>
+        <max.number.isotopes type="int" value="3"/>
+        <adducts type="adduct.list">
+            <adduct adduct.mass="1.007276" charge="1" name="M+H" num.molecules="1" quasi.molecular.ion="true"/>
+            <adduct adduct.mass="22.989218" charge="1" name="M+Na" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="-17.0033" charge="1" name="M+H-H2O" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="-5.0E-4" charge="1" name="M-e" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="38.963158" charge="1" name="M+K" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="22.989218" charge="1" name="2M+Na" num.molecules="2" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="33.033489" charge="1" name="M+CH3OH+H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="-35.0139" charge="1" name="M+H-2H2O" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="1.007276" charge="1" name="2M+H" num.molecules="2" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="44.97116" charge="1" name="M+2Na-H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="18.033823" charge="1" name="M+NH4" num.molecules="1" quasi.molecular.ion="true"/>
+            <adduct adduct.mass="23.996494" charge="2" name="M+H+Na" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="45.978436" charge="2" name="M+2Na" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="2.014552" charge="2" name="M+2H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="25.00377" charge="3" name="M+2H+Na" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="46.98382" charge="3" name="M+2Na+H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="-3.021828" charge="-3" name="M-3H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="-2.014552" charge="-2" name="M-2H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="-19.01839" charge="-1" name="M-H2O-H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="-1.007276" charge="-1" name="M-H" num.molecules="1" quasi.molecular.ion="true"/>
+            <adduct adduct.mass="20.974666" charge="-1" name="M+Na-2H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="34.969402" charge="-1" name="M+Cl" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="36.948606" charge="-1" name="M+K-2H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="44.998201" charge="-1" name="M+FA-H" num.molecules="1" quasi.molecular.ion="true"/>
+            <adduct adduct.mass="59.013851" charge="-1" name="M+Hac-H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="78.918885" charge="-1" name="M+Br" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="112.985586" charge="-1" name="M+TFA-H" num.molecules="1" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="-1.007276" charge="-1" name="2M-H" num.molecules="2" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="44.998201" charge="-1" name="2M+FA-H" num.molecules="2" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="59.013851" charge="-1" name="2M+Hac-H" num.molecules="2" quasi.molecular.ion="false"/>
+            <adduct adduct.mass="1.007276" charge="-1" name="3M-H" num.molecules="3" quasi.molecular.ion="false"/>
+        </adducts>
+    </org.dulab.adapbig.adductsearch.AdductSearchModule>
+    <org.dulab.adapbig.librarysearch.LibrarySearchModule>
+        <with.ontology type="boolean" value="true"/>
+        <score.threshold type="int" value="500"/>
+        <retention.index.tolerance type="int" value="50"/>
+        <retention.index.match selected="Ignore Retention Index" type="combo.list">
+            <combo value="Ignore Retention Index"/>
+            <combo value="Penalize matches without Retention Index (Strong)"/>
+            <combo value="Penalize matches without Retention Index (Average)"/>
+            <combo value="Penalize matches without Retention Index (Weak)"/>
+            <combo value="Always match Retention Index"/>
+        </retention.index.match>
+        <mz.tolerance.with.units type="mz" unit="da" universal="false" value="0.01"/>
+        <matches.per.spectrum type="int" value="100"/>
+        <libraries type="library.list"/>
+    </org.dulab.adapbig.librarysearch.LibrarySearchModule>
+    <org.dulab.adapbig.significance.SignificanceModule/>
+    <org.dulab.adapbig.normalization.NormalizationModule>
+        <algorithm.combo selected="total-intensity" type="combo.list">
+            <combo value="log-ratio"/>
+            <combo value="total-intensity"/>
+        </algorithm.combo>
+    </org.dulab.adapbig.normalization.NormalizationModule>
+    <org.dulab.adapbig.chromatogrambuilder.ChromatogramBuilderModule>
+        <mz.tolerance.with.units type="mz" unit="ppm" universal="false" value="5.0"/>
+        <minimum.scan.span type="int" value="3"/>
+        <intensity.thresh.2 type="double" value="1000.0"/>
+        <min.intensity.for.start.chrom type="double" value="1000.0"/>
+        <scan.polarity selected="all" type="combo.list">
+            <combo value="all"/>
+            <combo value="positive"/>
+            <combo value="negative"/>
+        </scan.polarity>
+    </org.dulab.adapbig.chromatogrambuilder.ChromatogramBuilderModule>
+    <org.dulab.adapbig.joinaligner.JoinAlignerModule>
+        <rt.tolerance type="double" value="0.1"/>
+        <mz.weight type="double" value="0.7"/>
+        <rt.weight type="double" value="0.3"/>
+        <ppm.tolerance type="mz" unit="ppm" universal="false" value="5.0"/>
+        <append.unaligned.peaks type="boolean" value="true"/>
+        <use.first.pool.sample.as.reference type="boolean" value="true"/>
+        <pool.sample.type selected="Pool" type="combo.list" universal="true">
+            <combo value="Pool"/>
+            <combo value="NIST"/>
+            <combo value="QC"/>
+            <combo value="Other"/>
+        </pool.sample.type>
+        <detect.isotopes type="boolean" value="true"/>
+    </org.dulab.adapbig.joinaligner.JoinAlignerModule>
+    <org.dulab.adapbig.clustering.ClusteringModule>
+        <clustering.threshold type="double" value="0.7"/>
+    </org.dulab.adapbig.clustering.ClusteringModule>
+    <org.dulab.adapbig.simplespectraldeconvolution.SimpleSpectralDeconvolutionModule>
+        <peak.similarity.threshold type="double" value="0.7"/>
+        <ret.time.tolerance type="double" value="0.02"/>
+        <min.num.peaks type="int" value="1"/>
+    </org.dulab.adapbig.simplespectraldeconvolution.SimpleSpectralDeconvolutionModule>
+    <org.dulab.adapbig.spectraldeconvolution.SpectralDeconvolutionModule>
+        <pref.window.width type="double" value="0.2"/>
+        <ret.time.tolerance type="double" value="0.02"/>
+        <intensity.factor type="double" value="0.0"/>
+        <min.cluster.size type="int" value="5"/>
+        <adjust.apex.ret.times type="boolean" value="false"/>
+    </org.dulab.adapbig.spectraldeconvolution.SpectralDeconvolutionModule>
+    <org.dulab.adapbig.gapfilling.GapFillingModule>
+        <mz.tolerance type="mz" unit="ppm" value="5.0"/>
+    </org.dulab.adapbig.gapfilling.GapFillingModule>
+    <org.dulab.adapbig.ms2pairing.Ms2PairingModule>
+        <mz.tolerance.with.units type="mz" unit="ppm" value="15.0"/>
+        <ret.time.tolerance type="double" value="0.1"/>
+    </org.dulab.adapbig.ms2pairing.Ms2PairingModule>
+    <org.dulab.adapbig.input.InputModule/>
+    <org.dulab.adapbig.peakdetection.PeakDetectorModule>
+        <snr.threshold type="double" value="3.0"/>
+        <snr.estimator.combo selected="intensity_window" type="combo.list">
+            <combo value="intensity_window"/>
+            <combo value="wavelet_coefficient"/>
+        </snr.estimator.combo>
+        <min.feature.height type="double" value="1000.0"/>
+        <peak.width.range end="1.0" start="0.02" type="double.range"/>
+        <coef.area.ratio.tolerance type="double" value="0.0"/>
+        <cwt.ret.time.range end="0.09" start="0.001" type="double.range"/>
+    </org.dulab.adapbig.peakdetection.PeakDetectorModule>
+    <org.dulab.adapbig.multibatchrsdfilter.MultiBatchRsdFilterModule>
+        <rsd.tolerance type="double" value="0.5"/>
+        <pool.sample.type selected="NIST" type="combo.list" universal="false">
+            <combo value="Pool"/>
+            <combo value="NIST"/>
+            <combo value="QC"/>
+            <combo value="Other"/>
+        </pool.sample.type>
+    </org.dulab.adapbig.multibatchrsdfilter.MultiBatchRsdFilterModule>
+    <org.dulab.adapbig.rsdfilter.RsdFilterModule>
+        <rsd.tolerance type="double" value="0.3"/>
+    </org.dulab.adapbig.rsdfilter.RsdFilterModule>
+    <org.dulab.adapbig.batcheffectcorrection.BatchEffectCorrectionModule>
+        <missing.pool.ratio type="double" value="0.5"/>
+        <pool.sample.type selected="NIST" type="combo.list" universal="false">
+            <combo value="Pool"/>
+            <combo value="NIST"/>
+            <combo value="QC"/>
+            <combo value="Other"/>
+        </pool.sample.type>
+    </org.dulab.adapbig.batcheffectcorrection.BatchEffectCorrectionModule>
+    <org.dulab.adapbig.peakms2pairing.PeakMs2PairingModule>
+        <mz.tolerance.ppm type="mz" unit="ppm" universal="false" value="15.0"/>
+    </org.dulab.adapbig.peakms2pairing.PeakMs2PairingModule>
+    <org.dulab.adapbig.dimensionalityreduction.DimensionalityReductionModule>
+        <num.components type="int" value="2"/>
+        <scaling.method selected="pareto-scaling" type="combo.list">
+            <combo value="z-scaling"/>
+            <combo value="pareto-scaling"/>
+        </scaling.method>
+    </org.dulab.adapbig.dimensionalityreduction.DimensionalityReductionModule>
+    <org.dulab.adapbig.anovabatcheffectcorrection.AnovaBatchEffectModule>
+        <anova.cut.off type="double" value="0.2"/>
+        <pool.sample.type selected="Pool" type="combo.list" universal="true">
+            <combo value="Pool"/>
+            <combo value="NIST"/>
+            <combo value="QC"/>
+            <combo value="Other"/>
+        </pool.sample.type>
+    </org.dulab.adapbig.anovabatcheffectcorrection.AnovaBatchEffectModule>
+    <org.dulab.adapbig.singlebatchnormalization.SingleBatchNormalizationModule/>
+    <org.dulab.adapbig.multibatchnormalization.MultiBatchNormalizationModule>
+        <algorithm selected="total-intensity" type="combo.list">
+            <combo value="log-ratio"/>
+            <combo value="total-intensity"/>
+        </algorithm>
+        <pool.sample.type selected="NIST" type="combo.list" universal="false">
+            <combo value="Pool"/>
+            <combo value="NIST"/>
+            <combo value="QC"/>
+            <combo value="Other"/>
+        </pool.sample.type>
+    </org.dulab.adapbig.multibatchnormalization.MultiBatchNormalizationModule>
+    <org.dulab.adapbig.backgroundremoval.BackgroundRemovalModule>
+        <multiplication.factor type="double" value="1.0"/>
+        <pool.ratio type="double" value="0.5"/>
+        <pool.sample.type selected="Pool" type="combo.list" universal="true">
+            <combo value="Pool"/>
+            <combo value="NIST"/>
+            <combo value="QC"/>
+            <combo value="Other"/>
+        </pool.sample.type>
+    </org.dulab.adapbig.backgroundremoval.BackgroundRemovalModule>
+    <org.dulab.adapbig.output.OutputModule>
+        <quantitation.mz.tolerance type="double" value="0.01"/>
+        <force.integer.mz type="boolean" value="false"/>
+    </org.dulab.adapbig.output.OutputModule>
+    <org.dulab.adapbig.betweenbatchjoinaligner.BetweenBatchJoinAlignerModule>
+        <rt.tolerance type="double" value="0.5"/>
+        <mz.weight type="double" value="0.7"/>
+        <rt.weight type="double" value="0.3"/>
+        <mz.tolerance.with.units type="mz" unit="ppm" universal="false" value="5.0"/>
+        <append.unaligned.peaks type="boolean" value="true"/>
+        <detect.isotopes type="boolean" value="false"/>
+        <pool.threshold type="double" value="0.5"/>
+        <pool.sample.type selected="Pool" type="combo.list" universal="false">
+            <combo value="Pool"/>
+            <combo value="NIST"/>
+            <combo value="QC"/>
+            <combo value="Other"/>
+        </pool.sample.type>
+    </org.dulab.adapbig.betweenbatchjoinaligner.BetweenBatchJoinAlignerModule>
+</settings>
