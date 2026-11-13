@@ -1,7 +1,8 @@
-# ST002118 — raw data → mzML → ADAP-BIG features
+# ST002118 — raw data → mzML → Data Preprocessing Using ADAP-BIG → Feature Table
 
-Study: *Exposures to Metals in Pregnant Women and the Impact on Fetal Development and Birth Outcomes in Suriname*
-(Metabolomics Workbench ST002118 / AN003466). 824 injections. Thermo Q Exactive HF-X, RP (Waters HSS T3), ESI positive.
+- Description: *Exposures to Metals in Pregnant Women and the Impact on Fetal Development and Birth Outcomes in Suriname*
+- Study ID: (Metabolomics Workbench ST002118) 
+- Additional Information: 824 injections. Thermo Q Exactive HF-X, RP (Waters HSS T3), ESI positive.
 
 Source: `ftp://www.metabolomicsworkbench.org/Studies/ST002118_HHEAR_Lichtveld.zip`
 
