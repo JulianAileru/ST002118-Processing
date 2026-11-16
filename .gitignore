@@ -32,3 +32,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .vscode/
+
+# --- Exported results (feature CSV ~0.9 GB, MSP ~0.1 GB; over GitHub's 100 MB limit) ---
+results/
