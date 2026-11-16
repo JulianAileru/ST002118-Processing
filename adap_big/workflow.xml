@@ -29,6 +29,25 @@
         <type value="aligned_component"/>
     </org.dulab.adapbig.betweenbatchjoinaligner.BetweenBatchJoinAlignerModule>
 
+    <!-- Intermediate export: between-batch aligned features, before normalization /
+         batch-effect correction (ALL_BATCHES/5.ALIGNED_COMPONENTS/aligned_features.ser).
+         See the final OutputModule steps below for notes on the options. -->
+    <org.dulab.adapbig.output.OutputModule>
+        <type value="aligned_component"/>
+        <filename value="aligned_features"/>
+        <multi-batch value="ALL_BATCHES"/>
+        <output value="ST002118_aligned_features.csv"/>
+        <with_ions/>
+    </org.dulab.adapbig.output.OutputModule>
+
+    <org.dulab.adapbig.output.OutputModule>
+        <type value="aligned_component"/>
+        <filename value="aligned_features"/>
+        <multi-batch value="ALL_BATCHES"/>
+        <output value="ST002118_aligned_features_msms.msp"/>
+        <outputlevel value="ms2"/>
+    </org.dulab.adapbig.output.OutputModule>
+
     <org.dulab.adapbig.multibatchnormalization.MultiBatchNormalizationModule>
         <type value="aligned_component"/>
     </org.dulab.adapbig.multibatchnormalization.MultiBatchNormalizationModule>
@@ -53,5 +72,27 @@
        <filename value="renormalized_features"/>
        <output.filename value="recorrected_features"/>
     </org.dulab.adapbig.batcheffectcorrection.BatchEffectCorrectionModule>
+
+    <!-- Export: feature table (.csv) + MS/MS spectra (.msp) from the final recorrected features.
+         OutputModule is not a @MultiBatchModule, so ALL_BATCHES is set explicitly.
+         One file per OutputModule step; format comes from the output extension (.csv | .msp | .pdf).
+         outputlevel (ms1 | ms2, default ms1) only applies to .msp.
+         Each child tag becomes a command-line option of org.dulab.adapbig.output.OutputMain,
+         which can also be run on its own against an existing run folder (no reprocessing). -->
+    <org.dulab.adapbig.output.OutputModule>
+        <type value="batch_effect_corrected"/>
+        <filename value="recorrected_features"/>
+        <multi-batch value="ALL_BATCHES"/>
+        <output value="ST002118_features.csv"/>
+        <with_ions/>
+    </org.dulab.adapbig.output.OutputModule>
+
+    <org.dulab.adapbig.output.OutputModule>
+        <type value="batch_effect_corrected"/>
+        <filename value="recorrected_features"/>
+        <multi-batch value="ALL_BATCHES"/>
+        <output value="ST002118_features_msms.msp"/>
+        <outputlevel value="ms2"/>
+    </org.dulab.adapbig.output.OutputModule>
 
 </workflow>
