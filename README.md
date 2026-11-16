@@ -1,27 +1,26 @@
-# ST002118 — raw data → mzML → ADAP-BIG features
+# ST002118 — raw data → mzML → Data Preprocessing Using ADAP-BIG → Feature Table
 
-Study: *Exposures to Metals in Pregnant Women and the Impact on Fetal Development and Birth Outcomes in Suriname*
-(Metabolomics Workbench ST002118 / AN003466). 824 injections. Thermo Q Exactive HF-X, RP (Waters HSS T3), ESI positive.
+- Description: *Exposures to Metals in Pregnant Women and the Impact on Fetal Development and Birth Outcomes in Suriname*
+- Study ID: (Metabolomics Workbench ST002118) 
+- Additional Information: 824 injections. Thermo Q Exactive HF-X, RP (Waters HSS T3), ESI positive.
 
-Source: `ftp://www.metabolomicsworkbench.org/Studies/ST002118_HHEAR_Lichtveld.zip` (87,122,217,392 bytes)
+Source: `ftp://www.metabolomicsworkbench.org/Studies/ST002118_HHEAR_Lichtveld.zip`
 
 ## Layout
 ```
-raw/zip/              downloaded archive                         (git-ignored)
-raw/extracted/        unzipped vendor .raw files                 (git-ignored)
+raw/zip/              downloaded archive                         (ignored)
+raw/extracted/        unzipped vendor .raw files                 (ignored)
 raw/raw_files.txt     sorted list of .raw paths (drives the array job)
-containers/           pwiz.sif + build provenance                (git-ignored)
-mzML/                 converted output                           (git-ignored)
+containers/           pwiz.sif + build provenance                (ignored)
+mzML/                 converted output                           (ignored)
 metadata/             sample metadata (see below)
 adap_big/             ADAP-BIG workflow, settings, factors, run script
-adap_big/runs/        ADAP-BIG project outputs                   (git-ignored)
-results/              exported feature tables / spectra          (git-ignored)
-logs/                 SLURM logs                                 (git-ignored; dir must exist)
+adap_big/runs/        ADAP-BIG project outputs                   (ignored)
+logs/                 SLURM logs                                 (ignored; dir must exist)
 scripts/              pipeline
 st002118-processing/  pixi environment (python, pandas, requests, mwtab)
 ```
-Everything lives under /users (10 TB quota). Not in $HOME (50 GB, nearly full) and not /work (purged).
-The ADAP-BIG jar (`adap_big/adap-big-console-app-v1.6.0.jar`) is not tracked; place it in `adap_big/`.
+
 
 ## Steps
 ```bash
