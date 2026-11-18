@@ -1,13 +1,26 @@
-# ST002118: raw data → ADAP-BIG features → SERRF batch correction
+# ST002118 — raw data → mzML → Data Preprocessing Using ADAP-BIG → Feature Table
 
-*Exposures to Metals in Pregnant Women and the Impact on Fetal Development and Birth Outcomes in Suriname*
-(Metabolomics Workbench ST002118 / AN003466). 824 injections in 8 batches, Thermo Q Exactive HF-X,
-RP (Waters HSS T3), ESI positive.
+- Description: *Exposures to Metals in Pregnant Women and the Impact on Fetal Development and Birth Outcomes in Suriname*
+- Study ID: (Metabolomics Workbench ST002118) 
+- Additional Information: 824 injections. Thermo Q Exactive HF-X, RP (Waters HSS T3), ESI positive.
 
-## Results
+Source: `ftp://www.metabolomicsworkbench.org/Studies/ST002118_HHEAR_Lichtveld.zip`
 
-**Pipeline:** vendor `.raw` → mzML (msconvert) → ADAP-BIG v1.6.0 (peak detection and alignment) →
-SERRF batch-effect correction → RSD filter on the NIST reference material.
+## Layout
+```
+raw/zip/              downloaded archive                         (ignored)
+raw/extracted/        unzipped vendor .raw files                 (ignored)
+raw/raw_files.txt     sorted list of .raw paths (drives the array job)
+containers/           pwiz.sif + build provenance                (ignored)
+mzML/                 converted output                           (ignored)
+metadata/             sample metadata (see below)
+adap_big/             ADAP-BIG workflow, settings, factors, run script
+adap_big/runs/        ADAP-BIG project outputs                   (ignored)
+logs/                 SLURM logs                                 (ignored; dir must exist)
+scripts/              pipeline
+st002118-processing/  pixi environment (python, pandas, requests, mwtab)
+```
+
 
 | Stage | Features × injections |
 |---|---|
