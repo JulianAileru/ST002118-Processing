@@ -33,7 +33,6 @@ st002118-processing/  pixi environment (python, pandas, requests, mwtab)
 | | Colored by batch | Colored by sample type |
 |---|---|---|
 | **Pre-correction** | ![](figures/pre-correction-colored-by-batch-signals3.png) | ![](figures/pre-correction-colored-by-sampletype-sig.png) |
-| **SERRF** | ![](figures/batch-correction-colored-by-batch-signal.png) | ![](figures/batch-correction-colored-by-sampletype.png) |
 | **SERRF + RSD filter** | ![](figures/rsd-filtered-colored-by-batch-signals911.png) | ![](figures/rsd-filtered-colored-by-sampletype-signa.png) |
 
 - **Pre-correction:** there is a strong batch effect. Batches 1–5 and 6–8 separate on PC2, and this
