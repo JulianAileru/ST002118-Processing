@@ -31,7 +31,14 @@ logs/*
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.virtual_documents/
 .vscode/
 
 # --- Exported results (feature CSV ~0.9 GB, MSP ~0.1 GB; over GitHub's 100 MB limit) ---
 results/
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# --- Local-only clone, not used for these results ---
+repos/spectral-annotation/

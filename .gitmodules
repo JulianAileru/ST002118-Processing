@@ -1,0 +1,6 @@
+[submodule "repos/serrf-py"]
+	path = repos/serrf-py
+	url = https://github.com/JulianAileru/serrf-py.git
+[submodule "repos/metabolomics-toolkit"]
+	path = repos/metabolomics-toolkit
+	url = https://github.com/JulianAileru/metabolomics-toolkit.git
