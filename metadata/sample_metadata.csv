@@ -1,4 +1,4 @@
-sample_id,raw_file_name,drcc_id,hhear_id,sample_type,injection_order,acquisition_time,prep_order,batch,section,prep_notes,raw_path,mzml_path
+sample_name,raw_file_name,drcc_id,hhear_id,sample_type,injection_order,acquisition_time,prep_order,batch,section,prep_notes,raw_path,mzml_path
 Lich_NIST_1,Lich_NIST_1,NIST_1,,NIST Reference Material,1,2021-11-05 23:48:22+00:00,321,1,1,,/users/j/a/jaileru/ST002118-Processing/raw/extracted/Lichtveld-LCMS-Untargeted/Lich_NIST_1.raw,/users/j/a/jaileru/ST002118-Processing/mzML/Lich_NIST_1.mzML
 Lich_S_1,Lich_S_1,S_1,H-2GNY8-S-00,Study Sample,2,2021-11-06 00:11:24+00:00,1,1,1,,/users/j/a/jaileru/ST002118-Processing/raw/extracted/Lichtveld-LCMS-Untargeted/Lich_S_1.raw,/users/j/a/jaileru/ST002118-Processing/mzML/Lich_S_1.mzML
 Lich_S_2,Lich_S_2,S_2,H-2GP06-S-00,Study Sample,3,2021-11-06 00:34:24+00:00,2,1,1,,/users/j/a/jaileru/ST002118-Processing/raw/extracted/Lichtveld-LCMS-Untargeted/Lich_S_2.raw,/users/j/a/jaileru/ST002118-Processing/mzML/Lich_S_2.mzML
